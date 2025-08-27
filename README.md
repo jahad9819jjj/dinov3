@@ -1,3 +1,14 @@
+# 環境構築
+
+```
+uv venv --python=3.11 
+source .venv/bin/activate
+uv pip install ftfy iopath omegaconf pandas regex scikit-learn scikit-learn-intelex submitit termcolor torchmetrics
+uv pip install torch torchvision torchmetrics --index-url https://download.pytorch.org/whl/cu126
+```
+
+
+
 🆕 [2025-08-14] :fire: DINOv3 backbones are now available in [Hugging Face Hub](https://huggingface.co/collections/facebook/dinov3-68924841bd6b561778e31009) and [supported](https://huggingface.co/docs/transformers/model_doc/dinov3) by the Hugging Face [Transformers](https://huggingface.co/docs/transformers/index) library
 
 # DINOv3 🦖🦖🦖
